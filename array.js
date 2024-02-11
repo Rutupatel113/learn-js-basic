@@ -1,9 +1,9 @@
 //adding new element(insertion) 
 //on primitives
 //end
-// let numbers = [10,20,30,40,50];
-// numbers.push(70);
-// console.log(numbers);
+let numbers4 = [10,20,30,40,50];
+numbers.push(70);
+console.log(numbers);
 
 // //begin
 // let numbers2 = [1,2,3,4,5];
