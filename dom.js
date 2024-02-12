@@ -37,7 +37,7 @@ document.body.appendChild(myDiv);
 //#2
 let myDiv2 = document.createElement('div');
 function paraStatus(event){
-    console.log('para + event.target.textcontent');
+    console.log('para' + event.target.textContent);
 }
 myDiv2.addEventListener('click',paraStatus);
 
@@ -50,9 +50,9 @@ for( let i=1; i<=10; i++){
 document.body.appendChild(myDiv2);
 
 //add event on specific tag
-let Element = document.querySelector('#wrapper');
-Element.addEventListener('click',function(event){
-    if(event.target.nodeName==='SPAN'){
-        console.log('only span'+ event.target.textContent);
-    }
-});
+// let Element = document.querySelector('#wrapper');
+// Element.addEventListener('click',function(event){
+//     if(event.target.nodeName==='SPAN'){
+//         console.log('only span'+ event.target.textContent);
+//     }
+// }); 
